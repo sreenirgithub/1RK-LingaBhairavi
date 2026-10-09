@@ -10,7 +10,7 @@ Edit `content/content.json` (plain text between quotes, keep the commas and quot
 - Phone / WhatsApp message / map link: `contact`
 
 ## Change reviews
-Edit `content/reviews.json`. Copy review text exactly. Add a `reply` block for an owner reply. Relative dates such as "9 weeks ago" go stale; replace them with real dates when you can.
+Edit `content/reviews.json`. Copy review text exactly. Add a `reply` block for an owner reply. Dates are intentionally not shown, because relative dates such as "9 weeks ago" go stale.
 
 ## Add or replace photos
 1. Download the photo from OneDrive and save it in `assets/photos/` (JPEG, about 1600 px wide, under 400 KB).

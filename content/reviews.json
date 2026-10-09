@@ -1,10 +1,41 @@
 {
   "source": "Google reviews",
   "reviews": [
-    {"name": "Sukhjit Kaur", "meta": "Local Guide · 13 reviews · 6 photos", "stars": 5, "date": "6 Jul 2025", "text": "I had a great experience during my stay here. The owner was very cooperative and responsive throughout. The place felt safe and secure, especially important for solo female tenants. Having a lift in the building was also a big convenience. Overall, a comfortable and hassle-free stay!"},
-    {"name": "Gunaseelan Chandrasekaran", "meta": "5 reviews · 0 photos", "stars": 5, "date": "9 weeks ago", "text": "Nice place to stay with all facilities, and safety. Owner is very genuine person"},
-    {"name": "priya sivanantham", "meta": "8 reviews · 1 photo", "stars": 5, "date": "14 weeks ago", "text": "It was a good stay at Linga Bhairavi...Sreeni sir was very friendly and responsive in every emergencies and in every issues or concerns...And the place was too calm also...I'll highly recommend this place...", "reply": {"date": "13 weeks ago", "text": "Thanks Madam and best wishes"}},
-    {"name": "Rahbar Zaman", "meta": "3 reviews · 2 photos", "stars": 5, "date": "27 weeks ago", "text": "I was one of the very first few people who started living here when this building started. I lived here for 8 long years. Very serene yet convenient location. I had an access to everything within 500 metres.\nThe best part about this place is the owner. I have barely met a person like him. Humble, sweet, straightforward, extremely responsive, ownership for smallest of problems within the building. Best place to live especially for someone who is starting a career."},
-    {"name": "Bhavana Shinde", "meta": "2 reviews · 0 photos", "stars": 5, "date": "46 weeks ago", "text": "An ideal accommodation for bachelors who are new to the city. The area is peaceful with no traffic noise, and the owner is extremely supportive and responsive to any concerns. Overall, it's an excellent place to live.", "reply": {"date": "46 weeks ago", "text": "Thanks Bhavana, best wishes"}}
+    {
+      "name": "Sukhjit Kaur",
+      "meta": "Local Guide · 13 reviews · 6 photos",
+      "stars": 5,
+      "text": "I had a great experience during my stay here. The owner was very cooperative and responsive throughout. The place felt safe and secure, especially important for solo female tenants. Having a lift in the building was also a big convenience. Overall, a comfortable and hassle-free stay!"
+    },
+    {
+      "name": "Gunaseelan Chandrasekaran",
+      "meta": "5 reviews · 0 photos",
+      "stars": 5,
+      "text": "Nice place to stay with all facilities, and safety. Owner is very genuine person"
+    },
+    {
+      "name": "priya sivanantham",
+      "meta": "8 reviews · 1 photo",
+      "stars": 5,
+      "text": "It was a good stay at Linga Bhairavi...Sreeni sir was very friendly and responsive in every emergencies and in every issues or concerns...And the place was too calm also...I'll highly recommend this place...",
+      "reply": {
+        "text": "Thanks Madam and best wishes"
+      }
+    },
+    {
+      "name": "Rahbar Zaman",
+      "meta": "3 reviews · 2 photos",
+      "stars": 5,
+      "text": "I was one of the very first few people who started living here when this building started. I lived here for 8 long years. Very serene yet convenient location. I had an access to everything within 500 metres.\nThe best part about this place is the owner. I have barely met a person like him. Humble, sweet, straightforward, extremely responsive, ownership for smallest of problems within the building. Best place to live especially for someone who is starting a career."
+    },
+    {
+      "name": "Bhavana Shinde",
+      "meta": "2 reviews · 0 photos",
+      "stars": 5,
+      "text": "An ideal accommodation for bachelors who are new to the city. The area is peaceful with no traffic noise, and the owner is extremely supportive and responsive to any concerns. Overall, it's an excellent place to live.",
+      "reply": {
+        "text": "Thanks Bhavana, best wishes"
+      }
+    }
   ]
 }

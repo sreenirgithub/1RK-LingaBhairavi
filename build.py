@@ -39,10 +39,10 @@ def review(r):
     body = "".join(f"<p>{e(x)}</p>" for x in r["text"].split("\n"))
     reply = ""
     if r.get("reply"):
-        reply = f'<div class="reply"><strong>Reply from the owner</strong> <span class="muted">· {e(r["reply"]["date"])}</span><p>{e(r["reply"]["text"])}</p></div>'
+        reply = f'<div class="reply"><strong>Reply from the owner</strong> <p>{e(r["reply"]["text"])}</p></div>'
     return (f'<article class="card review"><header><span class="avatar" aria-hidden="true">{e(r["name"][0].upper())}</span>'
             f'<div><strong>{e(r["name"])}</strong><div class="muted">{e(r["meta"])}</div></div></header>'
-            f'<p class="stars"><span aria-label="{r["stars"]} out of 5 stars">{stars}</span> <span class="muted">{e(r["date"])}</span></p>{body}{reply}</article>')
+            f'<p class="stars"><span aria-label="{r["stars"]} out of 5 stars">{stars}</span></p>{body}{reply}</article>')
 reviews_html = ""
 if rv["reviews"]:
     reviews_html = f'<h3>What tenants say</h3><p class="muted">Reviews from {e(rv["source"])}</p><div class="grid">' + "".join(review(r) for r in rv["reviews"]) + "</div>"
