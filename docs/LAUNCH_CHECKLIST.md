@@ -1,7 +1,7 @@
 # Launch checklist
 
 ## Launch blockers
-- [x] `site.siteUrl` set to https://sreenirgithub.github.io/localrepo (GitHub Pages address); preview tags generated.
+- [x] `site.siteUrl` set to https://sreenirgithub.github.io/1RK-LingaBhairavi (GitHub Pages address); preview tags generated.
 - [x] Phone number +91 8197152412 confirmed by owner.
 - [x] YouTube error 153: fixed. When the page is opened as a local file, the video opens on YouTube; owner confirmed. On-page playback still to be confirmed once hosted over https.
 - [ ] Front-room photos (middle and back photos and videos are added; front has only the YouTube video).
@@ -25,6 +25,6 @@
 - WhatsApp link preview (needs the deployed URL).
 
 ## Post-launch checks (after Pages is enabled)
-- Site loads at https://sreenirgithub.github.io/localrepo/ over https; all photos and videos load.
+- Site loads at https://sreenirgithub.github.io/1RK-LingaBhairavi/ over https; all photos and videos load.
 - Front-room YouTube video plays inside the page.
 - WhatsApp link preview shows the picture (paste the link into a WhatsApp chat; previews are cached).
