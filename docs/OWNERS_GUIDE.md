@@ -31,3 +31,9 @@ Replace `videoUrl` (and `youtubeId` for YouTube) in the group. OneDrive videos o
 
 ## Phone number privacy (static option)
 The number is not written as plain text on the page, and the buttons are created by a small script. This only deters simple scrapers. Anyone loading the page can obtain the number, and no static approach can guarantee it is never collected. A server-side check would be stronger but needs a backend, which you chose not to use.
+
+## Where media lives
+- `assets/photos/middle/` – middle-room photos, video and video poster
+- `assets/photos/back/` – back-room photos, video and video poster
+- `assets/photos/front/` – (create when front-room photos are supplied)
+Videos use click-to-play (`preload="none"`), so they are not downloaded until a visitor presses play. Keep each file well under GitHub's 100 MB limit.

@@ -21,6 +21,9 @@ def group(g):
         for p in photos:
             out.append(f'<img src="assets/photos/{e(p["file"])}" alt="{e(p["alt"])}" loading="lazy" width="{p["width"]}" height="{p["height"]}">')
         out.append("</div>")
+    if g.get("videoFile"):
+        v = g["videoFile"]
+        out.append(f'<video class="video" controls preload="none" playsinline poster="assets/photos/{e(v["poster"])}" src="assets/photos/{e(v["src"])}"></video>')
     if g.get("youtubeId"):
         out.append(f'<button class="btn btn-ghost yt" data-yt="{e(g["youtubeId"])}" type="button">▶ Play video</button>'
                    f'<p class="small"><a href="{e(g["videoUrl"])}" target="_blank" rel="noopener">Open on YouTube</a></p>')

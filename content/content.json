@@ -17,7 +17,12 @@
       "Linga Bhairavi Apartment has 24 single rooms, each with its own attached toilet and kitchen.",
       "This is not a PG. Each room is rented to singles who can make it a home away from home. A maximum of two people can stay in a room."
     ],
-    "highlights": ["24 single rooms", "Attached kitchen and toilet", "Lift and terrace access", "Water and repairs included"]
+    "highlights": [
+      "24 single rooms",
+      "Attached kitchen and toilet",
+      "Lift and terrace access",
+      "Water and repairs included"
+    ]
   },
   "rooms": {
     "heading": "Rooms, photos and videos",
@@ -34,15 +39,83 @@
         "id": "middle",
         "title": "Middle rooms",
         "note": "Example: Room 305",
-        "videoUrl": "https://1drv.ms/v/c/3160e0523cb20e7e/IQDy7yhSQ5fWSqT9jgi1MHHVAfE5Jp23r2N6DEHCOG3ZJsQ?e=kitGFt",
-        "photos": []
+        "photos": [
+          {
+            "file": "middle/room-cupboard-bed.jpg",
+            "alt": "Room with two-door cupboard with mirror, study table, bed and kitchen counter",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/room-desk-cupboard.jpg",
+            "alt": "Study table beside the two-door cupboard with mirror, with the bed in front",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/room-bathroom-door.jpg",
+            "alt": "Doorway from the room to the tiled bathroom",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/bathroom.jpg",
+            "alt": "Tiled bathroom with western toilet, hand shower and corner shelves",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/kitchen.jpg",
+            "alt": "Kitchen with tiled wall, granite counter, storage shelves and window",
+            "width": 725,
+            "height": 1600
+          }
+        ],
+        "videoFile": {
+          "src": "middle/room-tour.mp4",
+          "poster": "middle/room-tour-poster.jpg"
+        }
       },
       {
         "id": "back",
         "title": "Back rooms",
         "note": "Example: Room 206",
-        "videoUrl": "https://1drv.ms/v/c/3160e0523cb20e7e/IQAlYOY-dbAvQrs6Lfw-l62vAWmbLPmXZ4n1rFbGDD-L59k?e=c4YN1s",
-        "photos": []
+        "photos": [
+          {
+            "file": "back/room-cupboard-desk.jpg",
+            "alt": "Room with two-door cupboard with mirror, study table, bed and a window with curtain",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/room-kitchen-view.jpg",
+            "alt": "Room with window and curtain, and the kitchen counter and wall cabinet beyond",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/kitchen-corner.jpg",
+            "alt": "Kitchen corner with tiled wall, granite counter and window",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/kitchen-window.jpg",
+            "alt": "Kitchen window with sink and a wall cabinet with glass doors",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/bathroom.jpg",
+            "alt": "Tiled bathroom with shower, wall mixer tap, corner shelves and window",
+            "width": 725,
+            "height": 1600
+          }
+        ],
+        "videoFile": {
+          "src": "back/room-tour.mp4",
+          "poster": "back/room-tour-poster.jpg"
+        }
       }
     ]
   },
@@ -51,17 +124,32 @@
     "headline": "₹12,000 – ₹14,000 per month",
     "sub": "Single room with kitchen and toilet. Corner rooms are slightly bigger and have an additional window.",
     "items": [
-      {"label": "Included in rent", "text": "Water bills and all repair costs during the tenancy, including plumbing, electrical and carpentry repairs."},
-      {"label": "Paid separately", "text": "Electricity. Each room has its own meter, and tenants pay for the units used as per the meter."}
+      {
+        "label": "Included in rent",
+        "text": "Water bills and all repair costs during the tenancy, including plumbing, electrical and carpentry repairs."
+      },
+      {
+        "label": "Paid separately",
+        "text": "Electricity. Each room has its own meter, and tenants pay for the units used as per the meter."
+      }
     ]
   },
   "deposit": {
     "heading": "Deposit",
     "headline": "2 months' rent",
     "items": [
-      {"label": "Refund", "text": "The deposit is returned at the end of the tenancy, after deductions for cleaning and painting."},
-      {"label": "Deduction", "text": "₹7,000 is deducted from the deposit for cleaning and painting."},
-      {"label": "Settlement", "text": "The remaining amount is settled within a week of vacating."}
+      {
+        "label": "Refund",
+        "text": "The deposit is returned at the end of the tenancy, after deductions for cleaning and painting."
+      },
+      {
+        "label": "Deduction",
+        "text": "₹7,000 is deducted from the deposit for cleaning and painting."
+      },
+      {
+        "label": "Settlement",
+        "text": "The remaining amount is settled within a week of vacating."
+      }
     ]
   },
   "facilities": {
@@ -79,18 +167,39 @@
   "shared": {
     "heading": "Shared facilities",
     "items": [
-      {"label": "Parking", "text": "Bike parking on the ground floor."},
-      {"label": "Lift", "text": "The building has a lift."},
-      {"label": "Terrace", "text": "Tenants can use the terrace for drying clothes and short walks."}
+      {
+        "label": "Parking",
+        "text": "Bike parking on the ground floor."
+      },
+      {
+        "label": "Lift",
+        "text": "The building has a lift."
+      },
+      {
+        "label": "Terrace",
+        "text": "Tenants can use the terrace for drying clothes and short walks."
+      }
     ]
   },
   "terms": {
     "heading": "Tenancy terms",
     "items": [
-      {"label": "Minimum stay", "text": "6 months. Rooms are not rented for shorter periods. Early exit is possible by mutual understanding between tenant and owner."},
-      {"label": "Notice period", "text": "Tenants can vacate within 30 days of giving notice."},
-      {"label": "Guests", "text": "₹100 per day for overnight guests. Tenants keep track of guest days and pay the charges along with that month's rent."},
-      {"label": "House rules", "text": "There are no specific restrictions. We expect tenants and their guests to stay calm and not disturb neighbours."}
+      {
+        "label": "Minimum stay",
+        "text": "6 months. Rooms are not rented for shorter periods. Early exit is possible by mutual understanding between tenant and owner."
+      },
+      {
+        "label": "Notice period",
+        "text": "Tenants can vacate within 30 days of giving notice."
+      },
+      {
+        "label": "Guests",
+        "text": "₹100 per day for overnight guests. Tenants keep track of guest days and pay the charges along with that month's rent."
+      },
+      {
+        "label": "House rules",
+        "text": "There are no specific restrictions. We expect tenants and their guests to stay calm and not disturb neighbours."
+      }
     ]
   },
   "cleaning": {
@@ -103,14 +212,41 @@
     "busStop": "Thubarahalli bus stop, about 0.5 km away."
   },
   "faq": [
-    {"q": "What is the rent?", "a": "₹12,000 to ₹14,000 per month. Water and repairs are included; electricity is billed as per your room's meter."},
-    {"q": "How much is the deposit, and do I get it back?", "a": "Two months' rent. It is returned at the end of the tenancy after a ₹7,000 deduction for cleaning and painting, and settled within a week of vacating."},
-    {"q": "Do I need to pay anything besides rent?", "a": "Electricity as per your room's meter, and ₹100 per day for overnight guests."},
-    {"q": "Is there a meter for the room?", "a": "Yes. Each room has its own electricity meter."},
-    {"q": "What is in the room?", "a": "Attached kitchen (with cabinet) and toilet (with geyser), a bed without mattress, a study table and a two-door cupboard with mirror."},
-    {"q": "Is there parking and a lift?", "a": "Bike parking is on the ground floor, and the building has a lift."},
-    {"q": "Where is the nearest bus stop?", "a": "Thubarahalli, about 0.5 km away."},
-    {"q": "Are there any restrictions?", "a": "No specific restrictions. Please keep noise down and respect the neighbours."},
-    {"q": "Can I see photos and videos of the rooms?", "a": "Yes, see the Rooms section above, or ask on WhatsApp."}
+    {
+      "q": "What is the rent?",
+      "a": "₹12,000 to ₹14,000 per month. Water and repairs are included; electricity is billed as per your room's meter."
+    },
+    {
+      "q": "How much is the deposit, and do I get it back?",
+      "a": "Two months' rent. It is returned at the end of the tenancy after a ₹7,000 deduction for cleaning and painting, and settled within a week of vacating."
+    },
+    {
+      "q": "Do I need to pay anything besides rent?",
+      "a": "Electricity as per your room's meter, and ₹100 per day for overnight guests."
+    },
+    {
+      "q": "Is there a meter for the room?",
+      "a": "Yes. Each room has its own electricity meter."
+    },
+    {
+      "q": "What is in the room?",
+      "a": "Attached kitchen (with cabinet) and toilet (with geyser), a bed without mattress, a study table and a two-door cupboard with mirror."
+    },
+    {
+      "q": "Is there parking and a lift?",
+      "a": "Bike parking is on the ground floor, and the building has a lift."
+    },
+    {
+      "q": "Where is the nearest bus stop?",
+      "a": "Thubarahalli, about 0.5 km away."
+    },
+    {
+      "q": "Are there any restrictions?",
+      "a": "No specific restrictions. Please keep noise down and respect the neighbours."
+    },
+    {
+      "q": "Can I see photos and videos of the rooms?",
+      "a": "Yes, see the Rooms section above, or ask on WhatsApp."
+    }
   ]
 }
