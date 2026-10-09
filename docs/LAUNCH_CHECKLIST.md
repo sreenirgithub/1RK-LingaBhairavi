@@ -2,7 +2,7 @@
 
 ## Launch blockers
 - [x] Phone number +91 8197152412 confirmed by owner.
-- [ ] YouTube front-room video shows error 153 for the owner; a fix was pushed but is not yet confirmed. Needs checking over http (local server or hosted), and that the video allows embedding.
+- [x] YouTube error 153: fixed. When the page is opened as a local file, the video opens on YouTube; owner confirmed. On-page playback still to be confirmed once hosted over https.
 - [ ] Front-room photos (middle and back photos and videos are added; front has only the YouTube video).
 - [x] Review dates removed from all reviews (owner decision).
 - [ ] Choose hosting platform and approve the first public deployment (owner will decide later).
