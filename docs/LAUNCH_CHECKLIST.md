@@ -1,10 +1,10 @@
 # Launch checklist
 
 ## Launch blockers
-- [ ] Confirm +91 8197152412 is correct and is also the WhatsApp number (assumed so).
+- [x] Phone number +91 8197152412 confirmed by owner.
 - [ ] Front-room photos (middle and back photos and videos are added; front has only the YouTube video).
 - [ ] Review dates are relative ("9 weeks ago"); decide whether to replace with real dates.
-- [ ] Approve hosting choice and the first public deployment.
+- [ ] Choose hosting platform and approve the first public deployment (owner will decide later).
 
 ## Missing information (omitted from the site)
 - Street address (only the Google Maps link is shown)
