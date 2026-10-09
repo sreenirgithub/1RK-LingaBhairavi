@@ -37,3 +37,6 @@ The number is not written as plain text on the page, and the buttons are created
 - `assets/photos/back/` – back-room photos, video and video poster
 - `assets/photos/front/` – (create when front-room photos are supplied)
 Videos use click-to-play (`preload="none"`), so they are not downloaded until a visitor presses play. Keep each file well under GitHub's 100 MB limit.
+
+## Social-sharing preview (WhatsApp / Google)
+The preview picture is `assets/social-preview.jpg` (1200 x 630). WhatsApp needs the full web address, so after hosting set `site.siteUrl` in `content/content.json` to the real address (for example `https://yourname.github.io/repo`, no trailing slash), run `python3 build.py`, and redeploy. Until then the preview tags are left out. WhatsApp caches previews, so a changed picture can take a while to appear.
