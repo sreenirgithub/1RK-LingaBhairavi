@@ -1,0 +1,261 @@
+{
+  "site": {
+    "name": "Linga Bhairavi Apartment",
+    "tagline": "Single rooms with attached kitchen and toilet",
+    "description": "24 single rooms, each with an attached kitchen and toilet. Rent ₹12,000–₹14,000 including water and repairs. Two-month deposit, six-month minimum stay."
+  },
+  "contact": {
+    "countryCode": "91",
+    "phone": "8197152412",
+    "whatsappSameAsPhone": true,
+    "whatsappMessage": "Hello, I saw the Linga Bhairavi Apartment website and would like more details about the rooms.",
+    "mapsUrl": "https://maps.app.goo.gl/uaC44Nk1eWTACC3q6"
+  },
+  "overview": {
+    "heading": "A home away from home",
+    "paragraphs": [
+      "Linga Bhairavi Apartment has 24 single rooms, each with its own attached toilet and kitchen.",
+      "This is not a PG. Each room is rented to singles who can make it a home away from home. A maximum of two people can stay in a room."
+    ],
+    "highlights": [
+      "24 single rooms",
+      "Attached kitchen and toilet",
+      "Lift and terrace access",
+      "Bike parking on the ground floor",
+      "Security and CCTV"
+    ]
+  },
+  "rooms": {
+    "heading": "Rooms, photos and videos",
+    "intro": "Rooms are located at the front, middle and back of the building. The corner rooms are slightly bigger and have an additional window.",
+    "groups": [
+      {
+        "id": "front",
+        "title": "Front rooms",
+        "youtubeId": "ImbMApe94u8",
+        "videoUrl": "https://youtu.be/ImbMApe94u8?si=hHfVOnFDMxLQyy-i",
+        "photos": [],
+        "note": "Example: Room 104"
+      },
+      {
+        "id": "middle",
+        "title": "Middle rooms",
+        "note": "Example: Room 305",
+        "photos": [
+          {
+            "file": "middle/room-cupboard-bed.jpg",
+            "alt": "Room with two-door cupboard with mirror, study table, bed and kitchen counter",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/room-desk-cupboard.jpg",
+            "alt": "Study table beside the two-door cupboard with mirror, with the bed in front",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/room-bathroom-door.jpg",
+            "alt": "Doorway from the room to the tiled bathroom",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/bathroom.jpg",
+            "alt": "Tiled bathroom with western toilet, hand shower and corner shelves",
+            "width": 725,
+            "height": 1600
+          },
+          {
+            "file": "middle/kitchen.jpg",
+            "alt": "Kitchen with tiled wall, granite counter, storage shelves and window",
+            "width": 725,
+            "height": 1600
+          }
+        ],
+        "videoFile": {
+          "src": "middle/room-tour.mp4",
+          "poster": "middle/room-tour-poster.jpg"
+        }
+      },
+      {
+        "id": "back",
+        "title": "Back rooms",
+        "note": "Example: Room 206",
+        "photos": [
+          {
+            "file": "back/room-cupboard-desk.jpg",
+            "alt": "Room with two-door cupboard with mirror, study table, bed and a window with curtain",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/room-kitchen-view.jpg",
+            "alt": "Room with window and curtain, and the kitchen counter and wall cabinet beyond",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/kitchen-corner.jpg",
+            "alt": "Kitchen corner with tiled wall, granite counter and window",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/kitchen-window.jpg",
+            "alt": "Kitchen window with sink and a wall cabinet with glass doors",
+            "width": 1600,
+            "height": 725
+          },
+          {
+            "file": "back/bathroom.jpg",
+            "alt": "Tiled bathroom with shower, wall mixer tap, corner shelves and window",
+            "width": 725,
+            "height": 1600
+          }
+        ],
+        "videoFile": {
+          "src": "back/room-tour.mp4",
+          "poster": "back/room-tour-poster.jpg"
+        }
+      }
+    ]
+  },
+  "rent": {
+    "heading": "Rent and bills",
+    "headline": "₹12,000 – ₹14,000 per month",
+    "sub": "Single room with kitchen and toilet. Corner rooms are slightly bigger and have an additional window.",
+    "items": [
+      {
+        "label": "Included in rent",
+        "text": "Water bills and all repair costs during the tenancy, including plumbing, electrical and carpentry repairs."
+      },
+      {
+        "label": "Paid separately",
+        "text": "Electricity. Each room has its own meter, and tenants pay for the units used as per the meter."
+      }
+    ]
+  },
+  "deposit": {
+    "heading": "Deposit",
+    "headline": "2 months' rent",
+    "items": [
+      {
+        "label": "Refund",
+        "text": "The deposit is returned at the end of the tenancy, after deductions for cleaning and painting."
+      },
+      {
+        "label": "Deduction",
+        "text": "₹7,000 is deducted from the deposit for cleaning and painting."
+      },
+      {
+        "label": "Settlement",
+        "text": "The remaining amount is settled within a week of vacating."
+      }
+    ]
+  },
+  "facilities": {
+    "heading": "Room facilities",
+    "items": [
+      "Attached toilet with geyser",
+      "Attached kitchen, semi-furnished, with a small kitchen cabinet",
+      "Bed (without mattress)",
+      "Study table",
+      "Two-door cupboard with mirror",
+      "Water inlet and outlet for a washing machine (tenants may install their own)",
+      "Power backup is provided inside the room"
+    ],
+    "wifi": "Wi-Fi is not provided. Tenants can arrange their own connection."
+  },
+  "shared": {
+    "heading": "Shared facilities",
+    "items": [
+      {
+        "label": "Parking",
+        "text": "Bike parking on the ground floor."
+      },
+      {
+        "label": "Lift",
+        "text": "The building has a lift."
+      },
+      {
+        "label": "Terrace",
+        "text": "Tenants can use the terrace for drying clothes and short walks."
+      }
+    ]
+  },
+  "terms": {
+    "heading": "Tenancy terms",
+    "items": [
+      {
+        "label": "Minimum stay",
+        "text": "6 months. Rooms are not rented for shorter periods. Early exit is possible by mutual understanding between tenant and owner."
+      },
+      {
+        "label": "Notice period",
+        "text": "Tenants can vacate within 30 days of giving notice."
+      },
+      {
+        "label": "Guests",
+        "text": "₹100 per day for overnight guests. Tenants keep track of guest days and pay the charges along with that month's rent."
+      },
+      {
+        "label": "House rules",
+        "text": "There are no specific restrictions. We expect tenants and their guests to stay calm and not disturb neighbours."
+      },
+      {
+        "label": "Agreement",
+        "text": "One-time agreement charge of ₹900, plus stamp costs of ₹550."
+      }
+    ]
+  },
+  "cleaning": {
+    "heading": "Cleaning and repairs",
+    "text": "After each tenancy, the room, toilet and kitchen are professionally cleaned. All repairs are completed before the next tenancy begins.",
+    "reviews": []
+  },
+  "location": {
+    "heading": "Location and contact",
+    "busStop": "Thubarahalli bus stop, about 0.5 km away.",
+    "address": "2nd Cross, Meenakshi Layout, opposite Sumadhura Lake Breeze Apartments, Varthur Road",
+    "availability": "Contact the owner to check availability."
+  },
+  "faq": [
+    {
+      "q": "What is the rent?",
+      "a": "₹12,000 to ₹14,000 per month. Water and repairs are included; electricity is billed as per your room's meter."
+    },
+    {
+      "q": "How much is the deposit, and do I get it back?",
+      "a": "Two months' rent. It is returned at the end of the tenancy after a ₹7,000 deduction for cleaning and painting, and settled within a week of vacating."
+    },
+    {
+      "q": "Do I need to pay anything besides rent?",
+      "a": "Yes. Tenants pay the monthly electricity bill as per their room's meter, a one-time agreement charge of ₹900 (plus stamp costs of ₹550), and ₹100 per day for overnight guests."
+    },
+    {
+      "q": "Is there a meter for the room?",
+      "a": "Yes. Each room has its own electricity meter."
+    },
+    {
+      "q": "What is in the room?",
+      "a": "Attached kitchen (with cabinet) and toilet (with geyser), a bed without mattress, a study table and a two-door cupboard with mirror."
+    },
+    {
+      "q": "Is there parking and a lift?",
+      "a": "Bike parking is on the ground floor, and the building has a lift."
+    },
+    {
+      "q": "Where is the nearest bus stop?",
+      "a": "Thubarahalli, about 0.5 km away."
+    },
+    {
+      "q": "Are there any restrictions?",
+      "a": "No specific restrictions. Please keep noise down and respect the neighbours."
+    },
+    {
+      "q": "Can I see photos and videos of the rooms?",
+      "a": "Yes, see the Rooms section above, or ask on WhatsApp."
+    }
+  ]
+}
