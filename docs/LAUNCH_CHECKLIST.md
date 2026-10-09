@@ -18,8 +18,9 @@
 - In-page anchors resolve; no horizontal scroll at 390 px and 1280 px; no JavaScript errors.
 - WhatsApp, call and directions links are generated with the expected URLs.
 
+## Manually verified by owner (desktop and phone)
+- WhatsApp, Call owner and Get directions buttons; middle and back room videos; sideways photo strips; layout and readability.
+
 ## Still needs manual checking
-- Tap WhatsApp/call links on a real phone.
-- Click-to-play YouTube and OneDrive video links.
 - Screen-reader and contrast review; keyboard tab order (focus styles are in place).
 - WhatsApp link preview (needs the deployed URL).
