@@ -51,6 +51,14 @@ faq = "".join(f"<details><summary>{e(f['q'])}</summary><p>{e(f['a'])}</p></detai
 s = c["site"]
 ct = c["contact"]
 
+base = s["siteUrl"].rstrip("/")
+og_extra = ""
+if base:
+    og_extra = (f'<meta property="og:url" content="{e(base)}/">\n'
+                f'<meta property="og:image" content="{e(base)}/assets/social-preview.jpg">\n'
+                '<meta property="og:image:width" content="1200">\n<meta property="og:image:height" content="630">\n'
+                '<meta name="twitter:card" content="summary_large_image">')
+
 page = f"""<!doctype html>
 <html lang="en">
 <head>
@@ -61,6 +69,7 @@ page = f"""<!doctype html>
 <meta property="og:title" content="{e(s['name'])}">
 <meta property="og:description" content="{e(s['description'])}">
 <meta property="og:type" content="website">
+{og_extra}
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="style.css">
 </head>

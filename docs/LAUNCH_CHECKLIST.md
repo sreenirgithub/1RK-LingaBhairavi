@@ -1,6 +1,7 @@
 # Launch checklist
 
 ## Launch blockers
+- [ ] After hosting, set `site.siteUrl` in content.json and rebuild so the social-sharing preview image works.
 - [x] Phone number +91 8197152412 confirmed by owner.
 - [x] YouTube error 153: fixed. When the page is opened as a local file, the video opens on YouTube; owner confirmed. On-page playback still to be confirmed once hosted over https.
 - [ ] Front-room photos (middle and back photos and videos are added; front has only the YouTube video).
@@ -9,7 +10,6 @@
 
 ## Missing information (omitted from the site)
 - Electricity rate per unit (owner chose to leave out)
-- Logo and property photos for social-sharing preview
 
 ## Tests actually run
 - Page generated; no placeholder text such as "[Enter ...]" present.
