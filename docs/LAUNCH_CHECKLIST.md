@@ -2,7 +2,7 @@
 
 ## Launch blockers
 - [ ] Confirm +91 8197152412 is correct and is also the WhatsApp number (assumed so).
-- [ ] Add room photos for front, middle and back rooms (OneDrive could not be accessed; files not yet supplied).
+- [ ] Front-room photos (middle and back photos and videos are added; front has only the YouTube video).
 - [ ] Review dates are relative ("9 weeks ago"); decide whether to replace with real dates.
 - [ ] Approve hosting choice and the first public deployment.
 
@@ -14,6 +14,7 @@
 
 ## Tests actually run
 - Page generated; no placeholder text such as "[Enter ...]" present.
+- Gallery: 10 photos and 2 videos load with no 404s or broken images; no horizontal scroll at 390 px and 1280 px.
 - In-page anchors resolve; no horizontal scroll at 390 px and 1280 px; no JavaScript errors.
 - WhatsApp, call and directions links are generated with the expected URLs.
 

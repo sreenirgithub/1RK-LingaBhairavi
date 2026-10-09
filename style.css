@@ -40,3 +40,8 @@ summary{cursor:pointer;font-weight:600;padding:.6rem 0}details p{margin:.25rem 0
 .review header{display:flex;align-items:center;margin-bottom:.5rem}.stars{color:#c98a00;margin:.25rem 0;letter-spacing:.1rem}.stars .muted{letter-spacing:0}
 .review p{margin:.4rem 0}.reply{margin-top:.75rem;padding:.6rem .8rem;background:var(--band);border-radius:.5rem}.reply p{margin:.2rem 0}
 .photos{grid-template-columns:repeat(auto-fit,minmax(9rem,1fr))}.photos{align-items:start}.photos img{height:auto}.video{margin-top:.5rem;max-height:28rem;background:#000}
+.rooms-grid{grid-template-columns:1fr}
+.photos{display:flex;gap:.5rem;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.5rem}
+.photos img{height:15rem;width:auto;flex:none;scroll-snap-align:start;border-radius:.5rem}
+.video{width:auto;max-width:100%;max-height:22rem;aspect-ratio:auto}iframe.video{width:100%;aspect-ratio:16/9;max-height:none}
+.rooms-grid{grid-template-columns:minmax(0,1fr)}.card{min-width:0}

@@ -17,9 +17,9 @@ def group(g):
         out.append(f'<p class="muted">{e(g["note"])}</p>')
     photos = g.get("photos", [])
     if photos:
-        out.append('<div class="photos">')
+        out.append(f'<div class="photos" tabindex="0" role="region" aria-label="{e(g["title"])} photos, scroll sideways">')
         for p in photos:
-            out.append(f'<img src="assets/photos/{e(p["file"])}" alt="{e(p["alt"])}" loading="lazy" width="{p["width"]}" height="{p["height"]}">')
+            out.append(f'<img src="assets/photos/{e(p["file"])}" alt="{e(p["alt"])}" width="{p["width"]}" height="{p["height"]}">')
         out.append("</div>")
     if g.get("videoFile"):
         v = g["videoFile"]
@@ -82,7 +82,7 @@ page = f"""<!doctype html>
 <section id="overview"><h2>{e(c['overview']['heading'])}</h2>{''.join(f'<p>{e(p)}</p>' for p in c['overview']['paragraphs'])}</section>
 
 <section id="rooms"><h2>{e(c['rooms']['heading'])}</h2><p>{e(c['rooms']['intro'])}</p>
-<div class="grid">{''.join(group(g) for g in c['rooms']['groups'])}</div></section>
+<div class="grid rooms-grid">{''.join(group(g) for g in c['rooms']['groups'])}</div></section>
 
 <section id="rent"><h2>{e(c['rent']['heading'])}</h2>
 <p class="big">{e(c['rent']['headline'])}</p><p>{e(c['rent']['sub'])}</p><dl class="kv">{kv(c['rent']['items'])}</dl></section>
