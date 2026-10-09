@@ -102,6 +102,8 @@ page = f"""<!doctype html>
 <section id="faq"><h2>Frequently asked questions</h2>{faq}</section>
 
 <section id="contact"><h2>{e(c['location']['heading'])}</h2>
+<p><strong>Address:</strong> {e(c['location']['address'])}</p>
+<p><strong>Availability:</strong> {e(c['location']['availability'])}</p>
 <p><strong>Nearest bus stop:</strong> {e(c['location']['busStop'])}</p>
 <div class="actions" data-contact></div>
 <noscript><p class="notice">Please enable JavaScript to see the contact buttons.</p></noscript>

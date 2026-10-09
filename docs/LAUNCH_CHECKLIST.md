@@ -7,9 +7,7 @@
 - [ ] Choose hosting platform and approve the first public deployment (owner will decide later).
 
 ## Missing information (omitted from the site)
-- Street address (only the Google Maps link is shown)
-- Electricity rate per unit
-- Availability / vacancy
+- Electricity rate per unit (owner chose to leave out)
 - Logo and property photos for social-sharing preview
 
 ## Tests actually run

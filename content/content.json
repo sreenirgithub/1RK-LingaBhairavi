@@ -209,7 +209,9 @@
   },
   "location": {
     "heading": "Location and contact",
-    "busStop": "Thubarahalli bus stop, about 0.5 km away."
+    "busStop": "Thubarahalli bus stop, about 0.5 km away.",
+    "address": "2nd Cross, Meenakshi Layout, opposite Sumadhura Lake Breeze Apartments, Varthur Road",
+    "availability": "Contact the owner to check availability."
   },
   "faq": [
     {
