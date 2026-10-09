@@ -19,11 +19,17 @@
   });
   document.querySelectorAll("[data-yt]").forEach(function (b) {
     b.addEventListener("click", function () {
+      // YouTube refuses embeds with no web origin (error 153), e.g. a page opened from a local file.
+      if (location.protocol === "file:") {
+        window.open("https://www.youtube.com/watch?v=" + b.dataset.yt, "_blank", "noopener");
+        return;
+      }
       var f = document.createElement("iframe");
       f.src = "https://www.youtube-nocookie.com/embed/" + b.dataset.yt + "?autoplay=1";
       f.title = "Room video";
       f.allow = "autoplay; encrypted-media; fullscreen";
       f.allowFullscreen = true;
+      f.referrerPolicy = "strict-origin-when-cross-origin";
       f.className = "video";
       b.replaceWith(f);
     });
