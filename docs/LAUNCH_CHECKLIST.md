@@ -1,12 +1,12 @@
 # Launch checklist
 
 ## Launch blockers
-- [ ] After hosting, set `site.siteUrl` in content.json and rebuild so the social-sharing preview image works.
+- [x] `site.siteUrl` set to https://sreenirgithub.github.io/localrepo (GitHub Pages address); preview tags generated.
 - [x] Phone number +91 8197152412 confirmed by owner.
 - [x] YouTube error 153: fixed. When the page is opened as a local file, the video opens on YouTube; owner confirmed. On-page playback still to be confirmed once hosted over https.
 - [ ] Front-room photos (middle and back photos and videos are added; front has only the YouTube video).
 - [x] Review dates removed from all reviews (owner decision).
-- [ ] Choose hosting platform and approve the first public deployment (owner will decide later).
+- [ ] Hosting: GitHub Pages chosen. Enable it in repo Settings → Pages (deploy from `main`, root folder), then run the post-launch checks below.
 
 ## Missing information (omitted from the site)
 - Electricity rate per unit (owner chose to leave out)
@@ -23,3 +23,8 @@
 ## Still needs manual checking
 - Screen-reader and contrast review; keyboard tab order (focus styles are in place).
 - WhatsApp link preview (needs the deployed URL).
+
+## Post-launch checks (after Pages is enabled)
+- Site loads at https://sreenirgithub.github.io/localrepo/ over https; all photos and videos load.
+- Front-room YouTube video plays inside the page.
+- WhatsApp link preview shows the picture (paste the link into a WhatsApp chat; previews are cached).
