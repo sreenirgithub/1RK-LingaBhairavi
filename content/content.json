@@ -21,7 +21,8 @@
       "24 single rooms",
       "Attached kitchen and toilet",
       "Lift and terrace access",
-      "Water and repairs included"
+      "Bike parking on the ground floor",
+      "Security and CCTV"
     ]
   },
   "rooms": {
@@ -33,7 +34,8 @@
         "title": "Front rooms",
         "youtubeId": "ImbMApe94u8",
         "videoUrl": "https://youtu.be/ImbMApe94u8?si=hHfVOnFDMxLQyy-i",
-        "photos": []
+        "photos": [],
+        "note": "Example: Room 104"
       },
       {
         "id": "middle",
@@ -160,7 +162,8 @@
       "Bed (without mattress)",
       "Study table",
       "Two-door cupboard with mirror",
-      "Water inlet and outlet for a washing machine (tenants may install their own)"
+      "Water inlet and outlet for a washing machine (tenants may install their own)",
+      "Power backup is provided inside the room"
     ],
     "wifi": "Wi-Fi is not provided. Tenants can arrange their own connection."
   },
@@ -199,6 +202,10 @@
       {
         "label": "House rules",
         "text": "There are no specific restrictions. We expect tenants and their guests to stay calm and not disturb neighbours."
+      },
+      {
+        "label": "Agreement",
+        "text": "One-time agreement charge of ₹900, plus stamp costs of ₹550."
       }
     ]
   },
@@ -224,7 +231,7 @@
     },
     {
       "q": "Do I need to pay anything besides rent?",
-      "a": "Electricity as per your room's meter, and ₹100 per day for overnight guests."
+      "a": "Yes. Tenants pay the monthly electricity bill as per their room's meter, a one-time agreement charge of ₹900 (plus stamp costs of ₹550), and ₹100 per day for overnight guests."
     },
     {
       "q": "Is there a meter for the room?",
