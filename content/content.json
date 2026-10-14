@@ -1,9 +1,10 @@
 {
   "site": {
     "name": "Linga Bhairavi Apartment",
-    "tagline": "Single rooms with attached kitchen and toilet",
-    "description": "24 single rooms, each with an attached kitchen and toilet. Rent ₹12,000–₹14,000 including water and repairs. Two-month deposit, six-month minimum stay.",
-    "siteUrl": "https://sreenirgithub.github.io/1RK-LingaBhairavi"
+    "tagline": "1 RK, single rooms with attached kitchen and toilet",
+    "description": "24 single rooms on 4 floors, each with an attached kitchen and toilet, in the ITPL Whitefield / Brookfield area. Rent from ₹13,000 per month including water and repairs. Two-month deposit, six-month minimum stay.",
+    "siteUrl": "https://sreenirgithub.github.io/1RK-LingaBhairavi",
+    "locationLine": "In the ITPL Whitefield / Brookfield area, near D-Mart, Siddapura."
   },
   "contact": {
     "countryCode": "91",
@@ -19,7 +20,7 @@
       "This is not a PG. Each room is rented to singles who can make it a home away from home. A maximum of two people can stay in a room."
     ],
     "highlights": [
-      "24 single rooms",
+      "24 single rooms on 4 floors",
       "Attached kitchen and toilet",
       "Lift and terrace access",
       "Bike parking on the ground floor",
@@ -36,12 +37,12 @@
         "youtubeId": "ImbMApe94u8",
         "videoUrl": "https://youtu.be/ImbMApe94u8?si=hHfVOnFDMxLQyy-i",
         "photos": [],
-        "note": "Example: Room 104"
+        "note": "Example rooms: 104, 204, 304, 404 and 103, 203, 303, 403. All these rooms look similar."
       },
       {
         "id": "middle",
         "title": "Middle rooms",
-        "note": "Example: Room 305",
+        "note": "Example rooms: 105, 205, 305, 405 and 102, 202, 302, 402. All these rooms look similar.",
         "photos": [
           {
             "file": "middle/room-cupboard-bed.jpg",
@@ -82,7 +83,7 @@
       {
         "id": "back",
         "title": "Back rooms",
-        "note": "Example: Room 206",
+        "note": "Example rooms: 101, 201, 301, 401 and 106, 206, 306, 406. All these rooms look similar.",
         "photos": [
           {
             "file": "back/room-cupboard-desk.jpg",
@@ -124,7 +125,7 @@
   },
   "rent": {
     "heading": "Rent and bills",
-    "headline": "₹12,000 – ₹14,000 per month",
+    "headline": "₹13,000 onwards per month",
     "sub": "Single room with kitchen and toilet. Corner rooms are slightly bigger and have an additional window.",
     "items": [
       {
@@ -152,6 +153,10 @@
       {
         "label": "Settlement",
         "text": "The remaining amount is settled within a week of vacating."
+      },
+      {
+        "label": "Cleaning",
+        "text": "Every room is professionally cleaned at the start of each tenancy."
       }
     ]
   },
@@ -206,7 +211,7 @@
       },
       {
         "label": "Agreement",
-        "text": "One-time agreement charge of ₹900, plus stamp costs of ₹550."
+        "text": "One-time agreement charge of ₹900, which includes the stamp cost of ₹550."
       }
     ]
   },
@@ -218,13 +223,13 @@
   "location": {
     "heading": "Location and contact",
     "busStop": "Thubarahalli bus stop, about 0.5 km away.",
-    "address": "2nd Cross, Meenakshi Layout, opposite Sumadhura Lake Breeze Apartments, Varthur Road",
+    "address": "2nd Cross, Meenakshi Layout, opposite Sumadhura Lake Breeze Apartments, Varthur Road, ITPL, Whitefield, Brookfield area",
     "availability": "Contact the owner to check availability."
   },
   "faq": [
     {
       "q": "What is the rent?",
-      "a": "₹12,000 to ₹14,000 per month. Water and repairs are included; electricity is billed as per your room's meter."
+      "a": "Starting from ₹13,000 per month. Water and repairs are included. Electricity is billed as per your room's meter."
     },
     {
       "q": "How much is the deposit, and do I get it back?",
@@ -232,7 +237,7 @@
     },
     {
       "q": "Do I need to pay anything besides rent?",
-      "a": "Yes. Tenants pay the monthly electricity bill as per their room's meter, a one-time agreement charge of ₹900 (plus stamp costs of ₹550), and ₹100 per day for overnight guests."
+      "a": "Yes. Tenants pay the monthly electricity bill as per their room's meter."
     },
     {
       "q": "Is there a meter for the room?",

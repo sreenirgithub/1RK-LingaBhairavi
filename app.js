@@ -1,5 +1,23 @@
 // Builds contact buttons at load and enables click-to-play YouTube videos.
 (function () {
+  // Highlight the menu link for the section currently on screen.
+  var navLinks = document.querySelectorAll("nav a[href^='#']");
+  var secs = document.querySelectorAll("main section[data-nav]");
+  var ticking = false;
+  function mark() {
+    ticking = false;
+    var cur = "";
+    secs.forEach(function (s) { if (s.getBoundingClientRect().top <= 120) cur = s.dataset.nav; });
+    if (window.innerHeight + window.scrollY >= document.body.scrollHeight - 4) cur = "contact";
+    navLinks.forEach(function (a) {
+      var on = a.getAttribute("href") === "#" + cur;
+      a.classList.toggle("active", on);
+      if (on) a.setAttribute("aria-current", "true"); else a.removeAttribute("aria-current");
+    });
+  }
+  window.addEventListener("scroll", function () { if (!ticking) { ticking = true; requestAnimationFrame(mark); } }, { passive: true });
+  mark();
+
   var c = window.__C;
   var num = c.cc + c.p;
   var links = [
@@ -25,7 +43,7 @@
         return;
       }
       var f = document.createElement("iframe");
-      f.src = "https://www.youtube-nocookie.com/embed/" + b.dataset.yt + "?autoplay=1";
+      f.src = "https://www.youtube-nocookie.com/embed/" + b.dataset.yt + "?autoplay=1&rel=0&playsinline=1&origin=" + encodeURIComponent(location.origin);
       f.title = "Room video";
       f.allow = "autoplay; encrypted-media; fullscreen";
       f.allowFullscreen = true;
