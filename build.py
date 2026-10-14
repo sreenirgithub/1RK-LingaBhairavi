@@ -47,7 +47,7 @@ reviews_html = ""
 if rv["reviews"]:
     reviews_html = f'<h3>What tenants say</h3><p class="muted">Reviews from {e(rv["source"])}</p><div class="grid">' + "".join(review(r) for r in rv["reviews"]) + "</div>"
 
-faq = "".join(f"<details><summary>{e(f['q'])}</summary><p>{e(f['a'])}</p></details>" for f in c["faq"])
+faq = "".join(f"<details open><summary>{e(f['q'])}</summary><p>{e(f['a'])}</p></details>" for f in c["faq"])
 s = c["site"]
 ct = c["contact"]
 
@@ -78,39 +78,40 @@ page = f"""<!doctype html>
 <header class="top">
   <a class="brand" href="#top">{e(s['name'])}</a>
   <nav aria-label="Main"><ul>
-    <li><a href="#rooms">Rooms</a></li><li><a href="#rent">Rent</a></li><li><a href="#terms">Terms</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li>
+    <li><a href="#rooms">Rooms</a></li><li><a href="#rent">Rent</a></li><li><a href="#terms">Tenancy terms</a></li><li><a href="#faq">FAQ</a></li><li><a href="#contact">Contact</a></li>
   </ul></nav>
 </header>
 <div class="hero-wrap"><section class="hero" id="top">
   <h1>{e(s['name'])}</h1>
   <p class="lead">{e(s['tagline'])}</p>
+  <p class="where">{e(s['locationLine'])}</p>
   <ul class="chips">{''.join(f'<li>{e(h)}</li>' for h in c['overview']['highlights'])}</ul>
   <div class="actions" data-contact></div>
 </section></div>
 <main id="main">
 <section id="overview"><h2>{e(c['overview']['heading'])}</h2>{''.join(f'<p>{e(p)}</p>' for p in c['overview']['paragraphs'])}</section>
 
-<section id="rooms"><h2>{e(c['rooms']['heading'])}</h2><p>{e(c['rooms']['intro'])}</p>
+<section id="rooms" data-nav="rooms"><h2>{e(c['rooms']['heading'])}</h2><p>{e(c['rooms']['intro'])}</p>
 <div class="grid rooms-grid">{''.join(group(g) for g in c['rooms']['groups'])}</div></section>
 
-<section id="rent"><h2>{e(c['rent']['heading'])}</h2>
+<section id="rent" data-nav="rent"><h2>{e(c['rent']['heading'])}</h2>
 <p class="big">{e(c['rent']['headline'])}</p><p>{e(c['rent']['sub'])}</p><dl class="kv">{kv(c['rent']['items'])}</dl></section>
 
-<section id="deposit"><h2>{e(c['deposit']['heading'])}</h2>
+<section id="deposit" data-nav="rent"><h2>{e(c['deposit']['heading'])}</h2>
 <p class="big">{e(c['deposit']['headline'])}</p><dl class="kv">{kv(c['deposit']['items'])}</dl></section>
 
-<section id="facilities"><h2>{e(c['facilities']['heading'])}</h2>
+<section id="facilities" data-nav="rooms"><h2>{e(c['facilities']['heading'])}</h2>
 <ul class="ticks">{''.join(f'<li>{e(i)}</li>' for i in c['facilities']['items'])}</ul><p>{e(c['facilities']['wifi'])}</p></section>
 
-<section id="shared"><h2>{e(c['shared']['heading'])}</h2><dl class="kv">{kv(c['shared']['items'])}</dl></section>
+<section id="shared" data-nav="rooms"><h2>{e(c['shared']['heading'])}</h2><dl class="kv">{kv(c['shared']['items'])}</dl></section>
 
-<section id="terms"><h2>{e(c['terms']['heading'])}</h2><dl class="kv">{kv(c['terms']['items'])}</dl></section>
+<section id="terms" data-nav="terms"><h2>{e(c['terms']['heading'])}</h2><dl class="kv">{kv(c['terms']['items'])}</dl></section>
 
-<section id="cleaning"><h2>{e(c['cleaning']['heading'])}</h2><p>{e(c['cleaning']['text'])}</p>{reviews_html}</section>
+<section id="cleaning" data-nav="terms"><h2>{e(c['cleaning']['heading'])}</h2><p>{e(c['cleaning']['text'])}</p>{reviews_html}</section>
 
-<section id="faq"><h2>Frequently asked questions</h2>{faq}</section>
+<section id="faq" data-nav="faq"><h2>Frequently asked questions</h2>{faq}</section>
 
-<section id="contact"><h2>{e(c['location']['heading'])}</h2>
+<section id="contact" data-nav="contact"><h2>{e(c['location']['heading'])}</h2>
 <p><strong>Address:</strong> {e(c['location']['address'])}</p>
 <p><strong>Availability:</strong> {e(c['location']['availability'])}</p>
 <p><strong>Nearest bus stop:</strong> {e(c['location']['busStop'])}</p>

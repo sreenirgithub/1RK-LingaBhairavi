@@ -28,3 +28,7 @@
 - Site loads at https://sreenirgithub.github.io/1RK-LingaBhairavi/ over https; all photos and videos load.
 - Front-room YouTube video plays inside the page.
 - WhatsApp link preview shows the picture (paste the link into a WhatsApp chat; previews are cached).
+
+## Version 2 checks
+- Run by Claude (local server, 390 px and 1280 px): all 9 FAQ answers open, no horizontal scroll, no script errors, new wording present, menu highlight follows the section on screen.
+- Still to verify on the live site: front-room video plays inside the page (YouTube not reachable from the build environment); menu highlight on a real phone.
